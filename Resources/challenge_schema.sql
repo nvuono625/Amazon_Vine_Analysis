@@ -1,3 +1,16 @@
+-- Database: Amazon_Vine_db
+
+-- DROP DATABASE IF EXISTS "Amazon_Vine_db";
+
+CREATE DATABASE "Amazon_Vine_db"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'en_US.UTF-8'
+    LC_CTYPE = 'en_US.UTF-8'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+	
 CREATE TABLE review_id_table (
   review_id TEXT PRIMARY KEY NOT NULL,
   customer_id INTEGER,
