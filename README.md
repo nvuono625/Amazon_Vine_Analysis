@@ -1,6 +1,6 @@
 # Overview
 
-The purpose of this analysis is perform an ETl process one Amazon Reviews. Through Google Colab, use PySpark and a Postgres driver to extract a dataset of Amazon reviews, transform the data into dataframes that distinguish relational trends, and load the transformed dataframes into pgAdmin tables by coonecting through an AWS RDS instance. We're essentially analyzing differences, particularly any bias, between regular Amazon reviews and Amazon Vine reviews. The Amazon Vine program invites the most trusted reviewers on Amazon to post opinions about new and pre-release items to help fellow customers make informed purchase decisions. A vine review is identified with the green stripe customer review from the Amazon Vine Program.
+The purpose of this analysis is perform an ETL process one Amazon Reviews. Through Google Colab, use PySpark and a Postgres driver to extract a dataset of Amazon reviews, transform the data into dataframes that distinguish relational trends, and load the transformed dataframes into pgAdmin tables by coonecting through an AWS RDS instance. We're essentially analyzing differences, particularly any bias, between regular Amazon reviews and Amazon Vine reviews. The Amazon Vine program invites the most trusted reviewers on Amazon to post opinions about new and pre-release items to help fellow customers make informed purchase decisions. A vine review is identified with the green stripe customer review from the Amazon Vine Program.
 
 
 
